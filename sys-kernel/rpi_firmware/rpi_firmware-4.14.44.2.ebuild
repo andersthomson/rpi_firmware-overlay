@@ -1,11 +1,9 @@
 #Copyright Anders Thomson
 EAPI=6
 
-inherit git-r3
 
 DESCRIPTION="Raspberry Pi kernel, modules and GPU firmware binaries"
-EGIT_REPO_URI="https://github.com/raspberrypi/firmware.git"
-EGIT_COMMIT="ab802d365130f21f6897c7e1bc2f432d87803337"
+SRC_URI="https://github.com/raspberrypi/firmware/archive/ab802d365130f21f6897c7e1bc2f432d87803337.zip"
 
 LICENSE="unknown"
 SLOT="0"
