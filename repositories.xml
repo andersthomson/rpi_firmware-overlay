@@ -4,9 +4,9 @@
     <name>rpi_firmware-overlay</name>
     <description>Packaging of rpi firmware</description>
     <owner>
-      <email>Andersthomson888@gmail.com</email>
+      <email>andersthomson888@gmail.com</email>
       <name>Anders Thomson</name>
     </owner>
-    <source type="git">https://raw.githubusercontent.com/andersthomson/rpi_firmware-overlay.git</source>
+    <source type="git">https://github.com/andersthomson/rpi_firmware-overlay.git</source>
   </repo>
 </repositories>
