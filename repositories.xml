@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<repositories encoding="UTF-8" version="1.1">
+  <repo priority="50" quality="experimental">
+    <name>rpi_firmware-overlay</name>
+    <description>Packaging of rpi firmware</description>
+    <owner>
+      <email><ndersthomson888@gmail.com/email>
+      <name>Anders Thomson</name>
+    </owner>
+    <source type="git">https://raw.githubusercontent.com/andersthomson/rpi_firmware-overlay.git</source>
+  </repo>
+</repositories>
