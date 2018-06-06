@@ -1,13 +1,14 @@
 #Copyright Anders Thomson
 EAPI=6
 
+COMMIT="ab802d365130f21f6897c7e1bc2f432d87803337"
 DESCRIPTION="Raspberry Pi kernel, modules and GPU firmware binaries"
-SRC_URI="https://github.com/raspberrypi/firmware/archive/ab802d365130f21f6897c7e1bc2f432d87803337.zip -> ${P}.zip"
+SRC_URI="https://github.com/raspberrypi/firmware/archive/${COMMIT}.zip -> ${P}.zip"
 
-LICENSE="unknown"
-SLOT="${PV%.*}"
+LICENSE="multiple"
+SLOT="${PV}"
 KEYWORDS=""
-S="${WORKDIR}/firmware-ab802d365130f21f6897c7e1bc2f432d87803337"
+S="${WORKDIR}/firmware-${COMMIT}"
 
 src_install() {
         mkdir -p "${ED}/lib/modules/"
