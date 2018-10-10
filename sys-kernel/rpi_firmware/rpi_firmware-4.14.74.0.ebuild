@@ -6,7 +6,7 @@ DESCRIPTION="Raspberry Pi kernel, modules and GPU firmware binaries"
 SRC_URI="https://github.com/raspberrypi/firmware/archive/${COMMIT}.zip -> ${P}.zip"
 
 LICENSE="multiple"
-SLOT=""
+SLOT="4.14.74"
 KEYWORDS=""
 S="${WORKDIR}/firmware-${COMMIT}"
 
