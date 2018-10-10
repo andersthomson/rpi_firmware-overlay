@@ -7,7 +7,7 @@ SRC_URI="https://github.com/raspberrypi/firmware/archive/${COMMIT}.zip -> ${P}.z
 
 LICENSE="multiple"
 SLOT="4.14.74"
-KEYWORDS=""
+KEYWORDS="arm"
 S="${WORKDIR}/firmware-${COMMIT}"
 
 src_install() {
