@@ -13,6 +13,6 @@ S="${WORKDIR}/firmware-${COMMIT}"
 src_install() {
         mkdir -p "${ED}/lib/modules/"
         cp -r ${S}/modules/* "${ED}/lib/modules/"
-        tar cvfz "${ED}/lib/modules/boot-${PV}.tar.gz" "${S}/boot/"*
+        tar cvfz "${ED}/lib/modules/boot-${PV}.tar.gz" -C "${S}" boot/
 }
 
